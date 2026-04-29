@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  /* Northwestern MMM Brand Colors (RFC2 §7) */
+  --purple-primary: #4E2A84;      /* Northwestern purple */
+  --purple-secondary: #836EAA;    /* Lighter purple */
+  --bg-dark: #0F0A1A;             /* Deep purple-black background */
+  --bg-darker: #1A0F2E;           /* Slightly lighter variant */
+
+  --accent-cyan: #00D9FF;         /* Slice/success/score accent */
+  --accent-red: #E74C3C;          /* Warning/miss */
+
+  --text-primary: #ffffff;        /* White for emphasis */
+  --text-body: #F5F0E6;           /* Warm off-white for body */
+  --text-secondary: #836EAA;      /* Secondary purple text */
+
+  /* Font variables */
+  --font-serif: var(--font-serif);  /* DM Serif Display for objections */
+  --font-mono: var(--font-mono);    /* JetBrains Mono for HUD/input */
+}
+
+@theme inline {
+  --font-sans: var(--font-mono);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  font-family: var(--font-mono), "Courier New", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Game-specific: prevent text selection during gameplay */
+.game-screen {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Results page: allow text selection for reading */
+.results-screen {
+  user-select: text;
+  -webkit-user-select: text;
+}
