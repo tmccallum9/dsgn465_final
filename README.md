@@ -5,7 +5,7 @@ A typing-based reflection game for Northwestern MMM Growth Innovation Design. Pl
 ## Project Structure
 
 ```text
-dsgn465_final/
+.
 ├── frontend/              # Next.js app
 │   ├── app/               # Routes: /, /play, /results
 │   ├── lib/components/    # Game UI components

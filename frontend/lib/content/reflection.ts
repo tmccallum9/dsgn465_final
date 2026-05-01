@@ -8,11 +8,10 @@ export interface ReflectionQuestion {
 }
 export const REFLECTION = {
 
-  context: `At BCG, I will face a wide range of objections when introducing new ideas to clients. In large organizations, innovation is rarely blocked by a lack of ideas. It is blocked by a lack of confidence. Teams struggle to align on how to proceed, worry about whether something has been done before, and often get stuck in proof of concept loops without real commitment.  [oai_citation:0‡Growth Innovation 2026 - Class 3. share.pdf](sediment://file_00000000613c722faeba304ba1487e1e)
+  context: `At BCG, I will face a wide range of objections when introducing new ideas to clients. In large organizations, innovation is rarely blocked by a lack of ideas. It is blocked by a lack of confidence. Teams struggle to align on how to proceed, worry about whether something has been done before, and often get stuck in proof of concept loops without real commitment.
+  This game reflects that reality. It is not about having the perfect answer. It is about recognizing the underlying tension behind an objection and responding with the right lens. Whether that tension sits in customer relevance, organizational fit, or values, the goal is to diagnose it quickly and respond in a way that builds confidence. Over time, that is how ideas move from possibility to action.
 
-This game reflects that reality. It is not about having the perfect answer. It is about recognizing the underlying tension behind an objection and responding with the right lens. Whether that tension sits in customer relevance, organizational fit, or values, the goal is to diagnose it quickly and respond in a way that builds confidence. Over time, that is how ideas move from possibility to action.
-
-The deeper lesson is that innovation is a design challenge, not just a strategic one. Organizations are living systems, and confidence has to be built deliberately.  [oai_citation:1‡Growth Innovation 2026 - Class 3. share.pdf](sediment://file_00000000613c722faeba304ba1487e1e) This game is practice for doing exactly that.`,
+The deeper lesson is that innovation is a design challenge, not just a strategic one. Organizations are living systems, and confidence has to be built deliberately. This game is practice for doing exactly that.`,
 
   questions: [
     {
